@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>FORMS</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			background-color: #f0f0f0;
+		}
+		form {
+			width: 300px;
+			margin: 50px auto;
+			background-color: #fff;
+			padding: 20px;
+			border-radius: 8px;
+			box-shadow: 0 0 10px rgba(0,0,0,0.5);
+		}
+		input[type="text"],
+		input[type="password"] {
+			width: 100%;
+			padding: 10px;
+			margin-bottom: 20px;
+			border: 2px solid #ccc;
+			border-radius: 60px;
+			box-sizing: border-box;
+		}
+		input[type="submit"] {
+			width: 100%;
+			padding: 10px;
+			background-color: black;
+			color: #fff;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+			font-size: 16px;
+		}
+		input[type="submit"]:hover {
+			background-color: #BD1818;
+		}
+	</style>
+</head>
+<body>
+
+	<form action="handleForm.html">
+		<p>Name</p>
+		<input type="text" placeholder="Type your name here">
+		<p>Password</p>
+		<input type="password" placeholder="Type your password here">
+		<input type="submit">
+	</form>
+</body>
+</html>

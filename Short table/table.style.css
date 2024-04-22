@@ -1,0 +1,33 @@
+/* table.style.css */
+.weekend-table {
+  
+    width: 80%;
+    margin: 90px auto;
+    border-collapse: collapse;
+}
+
+.weekend-table th, .weekend-table td {
+ 
+    padding: 15px; 
+    text-align: center;
+}
+
+.weekend-table th {
+   
+    background-color: #f2f2f2;
+    font-size: 1.5em; 
+}
+
+.weekend-table td {
+   
+    font-size: 1.2em; 
+    border: 1.5px solid #ddd; /* increase border thickness */
+}
+
+body{
+    font-family: Arial;, sans-serif;
+}
+h1{
+    margin: 180px auto;
+    text-align: center;
+}
